@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="css/rotate.css"/>
+	<link rel="stylesheet" type="text/css" href="css/ui.css"/>
+	<link rel="stylesheet" type="text/css" href="css/halo.css"/>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body style="padding: 0px;margin: 0;background-color: #000;">
+		<div id="world" name="sn" style="position: absolute;">
+			<div id="board">
+				<div class=milky id="scoreDiv">
+					Score:0
+				</div>
+				<div class=milky id="scoreDiv" style="" onclick="scanAll2()">
+					Hint
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
+	<script src="js/snowMaps.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js" ></script>
+	<script type="text/javascript" src="js/queue.js" ></script>
+	<script src="js/effQueue.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/music.js" ></script>
+	<script type="text/javascript" src="js/drawHex.js" ></script>
+	<script type="text/javascript" src="js/hint2.js" ></script>
+	<script>
+		$(getXY);
+		$(createWorld);
+		$(addAllSnow);
+		window.onresize=reDraw;
+	</script>
+</html>

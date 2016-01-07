@@ -1,0 +1,33 @@
+#board {
+	//width: 16.5%;
+	position: absolute;
+	background-size: cover;
+	left: 83.5%;
+	height: 100%;
+	top:0px;
+}
+.blur {
+	filter: url(blur.svg#blur);
+	/* FireFox, Chrome, Opera */
+	-webkit-filter: blur(10px);
+	/* Chrome, Opera */
+	-moz-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+	filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+	/* IE6~IE9 */
+}
+.milky {
+	font-family: "microsoft yahei";
+	width: 100%;
+	/*text-transform: ;*/
+	display: block;
+	font-size: 250%;
+	color: #f1ebe5;
+	text-shadow: 0 10% 15% #c4b59d, 0px -10% 5% #fff;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-align: left;
+	position: relative;
+	left: 0px;
+}
